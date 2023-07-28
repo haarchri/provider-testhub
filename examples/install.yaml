@@ -1,0 +1,6 @@
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-testhub
+spec:
+  package: haarchri/provider-testhub:v0.1.0
